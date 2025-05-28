@@ -3,7 +3,7 @@ import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
-import '../src/styles/App.css';
+import './styles/App.css';
 
 function App() {
   const [tasks, setTasks] = useState([]);
